@@ -1,0 +1,474 @@
+
+
+
+html {
+    font-size: 16px;
+}
+
+
+.landing-section {
+
+    height: 100vh;
+
+    background-image: url("./assets/img/header_photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.landing-section>img {
+
+    width: 600px;
+
+
+
+}
+
+a {
+
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+a:visited {
+
+    color: white;
+}
+
+.header {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 40px 120px;
+    position: fixed;
+    top: 0px;
+}
+
+.nav-bar {
+
+    gap: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.nav-bar ul {
+    display: flex;
+
+    list-style-type: none;
+}
+
+.nav-bar a {
+
+    padding: 8px;
+}
+
+.nav-bar a:hover {
+
+    color: black;
+    background-color: rgb(147, 184, 232);
+    border-radius: 8px;
+
+}
+
+.mail_icon {
+
+    padding: 10px;
+}
+
+.mail_icon img:hover {
+
+    background-color: rgb(147, 184, 232);
+    border-radius: 5px;
+}
+
+.main-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+    background-color: var(--bg-color);
+
+    padding: 120px 0px;
+}
+
+.content-section {
+
+    padding: 0px 120px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.content-section>h2 {
+
+    font-size: 4rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.components-table {
+
+    color: white;
+
+    border: 4px solid white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.components-table th {
+
+    border: 4px solid white;
+    text-align: left;
+
+    padding: 16px 8px 8px 16px;
+
+    background-color: rgba(111, 139, 221, 0.2);
+}
+
+.components-table td {
+
+    border-left: 4px solid white;
+    border-bottom: 1px solid white;
+
+    padding: 8px 16px;
+}
+
+.learning-content {
+
+    display: flex;
+    gap: 40px;
+
+    color: white;
+}
+
+.learning-content>img {
+
+    width: 500px;
+}
+
+.learning-content-right {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+
+}
+
+.learning-content p {
+
+    font-size: 1.5rem;
+}
+
+.learning-content h3 {
+
+    font-size: 3rem;
+}
+
+.learning-content-link ul{
+
+    display: flex;
+    gap: 48px;
+
+    list-style-type: none;
+
+
+}
+
+.learning-content-link > a {
+
+    color: rgb(147, 184, 232);
+
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 8px;
+}
+
+.software-card img {
+
+    width: 120px;
+    margin-left: 24px;
+}
+
+.software-card {
+
+    color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    justify-content: center;
+
+}
+
+.software-card h3 {
+
+    font-size: 2.25rem;
+
+}
+
+.software-card p {
+
+    font-size: 1.5rem;
+
+    padding-top: 16px;
+
+}
+
+.content-box {
+    border: 5px solid white;
+    width: 530px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    background-color: rgba(111, 139, 221, 0.2);
+
+
+}
+
+.card-content {
+
+    display: flex;
+    align-self: start;
+    flex-direction: column;
+
+    margin: 24px 24px 24px 0px;
+
+}
+
+.all-cards {
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-section>p {
+
+    color: rgb(217, 217, 217);
+    font-size: 1.5rem;
+
+    display: flex;
+    align-self: center;
+}
+
+.footer {
+
+    display: flex;
+
+    padding: 60px 120px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+}
+
+.footer>div {
+
+    display: flex;
+    gap: 24px;
+
+
+}
+
+.footer img {
+
+    width: 24px;
+}
+
+.footer p {
+
+    align-content: center;
+}
+
+.learning-content-link a:hover {
+
+    background-color: rgba(216, 242, 255, 0.2);
+
+
+    border-radius: 8px;
+}
+
+.socialmedia-icon img:hover {
+
+    background-color: rgb(147, 184, 232);
+    border-radius: 5px;
+
+}
+
+.facebook img:hover {
+
+    border-radius: 15px;
+}
+
+.facebook {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.socialmedia-icon {
+
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .content-section {
+        padding: 0px 48px;
+    }
+
+    .learning-content>img {
+        width: 300px;
+        height: fit-content;
+    }
+
+    .learning-content {
+        align-items: center;
+    }
+
+    .software-card {
+        gap: 16px;
+    }
+
+}
+
+/*  Hier den Gaming pc png
+    Sowie Header link schriftgröße*/
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .landing-section>img {
+        width: 450px;
+    }
+
+    .nav-bar a {
+        text-align: center;
+    }
+
+}
+
+/*  Hier den Gaming pc png
+    Sowie Header link schriftgröße*/
+
+@media screen and (max-width: 479px) {
+    .landing-section>img {
+        width: 300px;
+    }
+
+    .nav-bar a {
+        padding: 3px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+
+    .content-section {
+        padding: 0px 16px;
+    }
+
+    .learning-content>img {
+        width: 300px;
+        height: fit-content;
+    }
+
+    .learning-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .learning-content-right {
+        align-items: center;
+    }
+
+    .learning-content-link {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header>a {
+        display: none;
+    }
+
+    .header {
+        padding: 16px;
+
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .software-card {
+        gap: 16px;
+
+    }
+
+    .content-box img {
+        width: 100px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        gap: 24px;
+        padding: 40px;
+    }
+
+    .main-content {
+        padding-bottom: 0px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1440px){
+    .content-section {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
+
+    .header {
+        padding: 16px max(120px, calc(50% - 720px));
+    }
+
+    .footer {
+        padding: 60px max(120px, calc(50% - 720px));
+    
+    }
+
+    .landing-section > img {
+        width: 900px;
+    }
+}
